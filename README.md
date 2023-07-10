@@ -16,3 +16,6 @@ Terraform is a tool to automate the infrastructer provisioning by writing Terraf
 - After provisioning the server with terraform the server IP is fetched into Jenkins with the Terraform output command.
 - SSH into AWS server from Jenkinsfile and prepare the server with shell script to deploy application.
 - After running the shell script the docker image is fetched from dockerhub repository and run with docker command.
+
+## Project Flow Chart
+![ss1](https://github.com/AkramExp/jenkins-terraform/blob/main/screenshots/ss1.png)
